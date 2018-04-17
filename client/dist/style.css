@@ -1,0 +1,106 @@
+ #map {
+	width: 100%;
+	height: 400px;
+	background-color: grey;
+}
+
+.bus-loc-map-pin {
+	color: #666;
+	margin-right: 10px;
+}
+
+.no-stars {
+  background: url('https://rossirovetti.com/yelpcalc/xosr_arith.jpg.pagespeed.ic.GahG2Y9mbT.jpg') 0 8;
+  height: 31px;
+  width: 190px;
+}
+
+.one-stars {
+  background: url('https://rossirovetti.com/yelpcalc/xosr_arith.jpg.pagespeed.ic.GahG2Y9mbT.jpg') 0 -32px;
+  height: 31px;
+  width: 190px;
+}
+
+.one-half-stars {
+  background: url('https://rossirovetti.com/yelpcalc/xosr_arith.jpg.pagespeed.ic.GahG2Y9mbT.jpg') 0 -72px;
+  height: 31px;
+  width: 190px;
+}
+
+.two-stars {
+  background: url('https://rossirovetti.com/yelpcalc/xosr_arith.jpg.pagespeed.ic.GahG2Y9mbT.jpg') 0 -112px;
+  height: 31px;
+  width: 190px;
+}
+
+.two-half-stars {
+  background: url('https://rossirovetti.com/yelpcalc/xosr_arith.jpg.pagespeed.ic.GahG2Y9mbT.jpg') 0 -152px;
+  height: 31px;
+  width: 190px;
+}
+
+.three-stars {
+  background: url('https://rossirovetti.com/yelpcalc/xosr_arith.jpg.pagespeed.ic.GahG2Y9mbT.jpg') 0 -192px;
+  height: 31px;
+  width: 190px;
+}
+
+.three-half-stars {
+  background: url('https://rossirovetti.com/yelpcalc/xosr_arith.jpg.pagespeed.ic.GahG2Y9mbT.jpg') 0 -232px;
+  height: 31px;
+  width: 190px;
+}
+
+.four-stars {
+  background: url('https://rossirovetti.com/yelpcalc/xosr_arith.jpg.pagespeed.ic.GahG2Y9mbT.jpg') 0 -272px;
+  height: 31px;
+  width: 190px;
+}
+
+.four-half-stars {
+  background: url('https://rossirovetti.com/yelpcalc/xosr_arith.jpg.pagespeed.ic.GahG2Y9mbT.jpg') 0 -312px;
+  height: 31px;
+  width: 190px;
+}
+
+.five-stars {
+  background: url('https://rossirovetti.com/yelpcalc/xosr_arith.jpg.pagespeed.ic.GahG2Y9mbT.jpg') 0 -352px;
+  height: 31px;
+  width: 190px;
+}
+.title {
+    padding-top: 6px;
+    font-size: 36px;
+    line-height: 1.16667em;
+    color :#333;
+}
+.typeFood {
+  color: #0073bb;
+    text-decoration: none;;
+}
+.typeFood:hover {
+    text-decoration: underline;
+}
+.hours {
+    font-size: 16px;
+    line-height: 1.3125em;
+    color: #d32323;
+}
+.hoursTable {
+    margin-bottom: 6px;
+    width: auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.smalltable {
+    padding: 11px;
+    background: #f5f5f5;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+}
+.ReservationButton {
+  border-color: #28781e;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+  background: #3cb52e;
+}
