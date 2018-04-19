@@ -33,7 +33,7 @@ const BusinessInfo = function(props) {
  		<div>
 	 		<h3 className="hours">More business info</h3>
 	 		<p>RestaurantsTableService  <b>{booleanToYesOrNo(props.infors.attributes.RestaurantsTableService)}</b></p>
-	 		<p>GoodForMeal  {goodForMeal.map((item) => <b> {uppercaseFirst(item)} </b>)}</p>
+	 		<p>GoodForMeal  {goodForMeal.map((item) => <b key={item}> {uppercaseFirst(item)} </b>)}</p>
 	 		<p>Alcohol  <b>{booleanToYesOrNo(props.infors.attributes.Alcohol)}</b></p>
 	 		<p>RestaurantsGoodForGroups  <b>{booleanToYesOrNo(props.infors.attributes.RestaurantsGoodForGroups)}</b></p>
 	 		<p>NoiseLevel  <b>{uppercaseFirst(props.infors.attributes.NoiseLevel)}</b></p>
@@ -44,10 +44,10 @@ const BusinessInfo = function(props) {
 	 		<p>BusinessAcceptsCreditCards  <b>{booleanToYesOrNo(props.infors.attributes.BusinessAcceptsCreditCards)}</b></p>
 	 		<p>BikeParking  <b>{booleanToYesOrNo(props.infors.attributes.BikeParking)}</b></p>
 	 		<p>RestaurantsDelivery  <b>{booleanToYesOrNo(props.infors.attributes.RestaurantsDelivery)}</b></p>
-	 		<p>Ambience  {ambience.map((item) => <b>{uppercaseFirst(item)}</b>)}</p>
+	 		<p>Ambience  {ambience.map((item) => <b key={item}>{uppercaseFirst(item)}</b>)}</p>
 	 		<p>RestaurantsTakeOut  <b>{booleanToYesOrNo(props.infors.attributes.RestaurantsTakeOut)}</b></p>
 	 		<p>RestaurantsTakeOut  <b>{booleanToYesOrNo(props.infors.attributes.RestaurantsTakeOut)}</b></p>
-	 		<p>BusinessParking  {businessParking.map((item) => <b>{uppercaseFirst(item)}  </b>)}</p>
+	 		<p>BusinessParking  {businessParking.map((item) => <b key={item}>{uppercaseFirst(item)}  </b>)}</p>
  		</div>
  	</div>
  )
