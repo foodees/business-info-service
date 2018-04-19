@@ -24,10 +24,10 @@ const Maps = function(props) {
     document.body.appendChild(s);
 
 	return(
-		<div>	
+		<div className="col-md-5 mapbox">	
 			<div id="map"></div>
 			<div>
-				<p><i className="fas fa-map-marker-alt bus-loc-map-pin"></i><span>{props.infors.address}  {props.infors.city}  {props.infors.state}  {props.infors.postal_code}</span></p>
+				<p><i className="fas fa-map-marker-alt bus-loc-map-pin"></i><b>{props.infors.address}  {props.infors.city}  {props.infors.state}  {props.infors.postal_code}</b></p>
 			</div>
 		</div>
 	)	
